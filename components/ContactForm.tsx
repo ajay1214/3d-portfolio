@@ -107,7 +107,7 @@ const Contact = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
-            placeholder="Hello Sinan! I Want to Hire You 😊..."
+            placeholder="Hello Ajay! I Want to Hire You 😊..."
             rows={4}
             className="mt-1 w-full bg-gray-900/50 border-gray-800 text-gray-100 placeholder:text-gray-500 focus:border-purple-500 focus:ring-purple-500 resize-none transition-colors duration-300 text-sm sm:text-base"
           />

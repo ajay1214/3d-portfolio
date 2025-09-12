@@ -11,8 +11,8 @@ const SeoImage = () => {
       }}
     >
       <Image
-        src="/assets/profile-image.jpg"
-        alt="Muhammed sinan - MERN stack developer"
+        src="/assets/ajay-profile.jpg"
+        alt="Ajay Bind - MERN stack developer"
         width={1200}
         height={630}
         priority

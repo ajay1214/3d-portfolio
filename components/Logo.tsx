@@ -14,7 +14,7 @@ const Logo = ({ onClick }: { onClick?: () => void; }) => {
                 }}
                 whileTap={{ scale: 0.95 }}
             >
-                {'< Sinan />'}
+                {'< Ajay />'}
             </motion.span>
         </Link>
     );

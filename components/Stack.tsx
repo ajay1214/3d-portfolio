@@ -45,12 +45,10 @@ const Stack = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-              My Tech Arsenal
+              Skills & Tools.
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-12 max-w-4xl mx-auto">
-              Explore the cutting-edge technologies I leverage to craft efficient and scalable solutions.
-              <br />
-              From concept to deployment, I bring expertise in every aspect of the development lifecycle.
+              I enjoy working with modern technologies to build applications that are efficient, scalable, and user-friendly. From designing the idea to deploying the solution, I focus on writing clean code and creating software that solves real problems.
             </p>
           </motion.div>
 

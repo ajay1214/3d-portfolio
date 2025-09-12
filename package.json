@@ -2,18 +2,18 @@
   "name": "protfolio",
   "version": "0.1.0",
   "private": false,
-  "displayName": "SinanPtm Portfolio",
+  "displayName": "Ajay Bind Portfolio",
   "maintainers": [
     {
-      "name": "sinanptm",
-      "email": "sinan@codecords.com",
-      "url": "https://github.com/sinanptm"
+      "name": "Ajay",
+      "email": "adarshbind61@gmail.com",
+      "url": "https://github.com/ajay1214"
     }
   ],
   "author": {
-    "name": "sinanptm",
-    "email": "sinan@codecorde.com",
-    "url": "https://github.com/sinanptm"
+    "name": "Ajay Bind",
+    "email": "adarshbind61@gmail.com",
+    "url": "https://github.com/ajay1214"
   },
   "scripts": {
     "dev": "next dev --turbo",

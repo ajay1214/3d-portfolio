@@ -24,7 +24,7 @@ const Footer = () => {
               </Link>
             </h3>
             <p className="text-muted-foreground text-base max-w-md">
-              Self-taught MERN stack developer passionate about building scalable, efficient applications.
+              Self-taught Full stack developer passionate about building scalable, efficient applications.
             </p>
             <div className="flex space-x-4">
               {socialMediaLinks.map((link) => (

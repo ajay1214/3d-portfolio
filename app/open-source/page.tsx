@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Open Source",
     description: "Check out my contributions to open source projects. See how I collaborate with the developer community and share code for public benefit.",
     openGraph: {
-        title: "Open Source Contributions | Muhammed Sinan",
+        title: "Open Source Contributions | Ajay Bind",
         description: "Exploring my open source journey and contributions to the developer community",
         images: [
             {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Open Source Contributions | Muhammed Sinan",
+        title: "Open Source Contributions | Ajay Bind",
         description: "Exploring my open source journey and contributions to the developer community",
         images: ["/screenshots/opensource-og.png.png"],
     },

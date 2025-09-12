@@ -24,7 +24,7 @@ const ContactDetails = () => {
 
                     <div className="relative w-[490px] h-[490px] mt-[49px]">
                         <Image
-                            src="/assets/avatar.png"
+                            src="/assets/ajayPic.png"
                             alt="Profile photo"
                             fill
                             className="object-contain"

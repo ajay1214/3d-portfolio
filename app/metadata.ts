@@ -3,18 +3,19 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        default: `Muhammed Sinan - Full Stack Developer `,
-        template: "%s | Muhammed Sinan - Full Stack Developer",
+        default: `Ajay Bind - Full Stack Developer `,
+        template: "%s | Ajay Bind - Full Stack Developer",
     },
     description: "Full Stack Developer specializing in MERN stack. Building scalable web apps with React, Node.js, Express, MongoDB, and Next.js. Open for collaboration.",
     keywords: [
-        "Muhammed Sinan",
-        "Muhammed Sinan Developer",
-        "Muhammed Sinan Pavukkandy, Kozhikode, Kerala",
-        "sinanptm Portfolio",
-        "Muhammed sinan projects",
-        "Muhammed sinan tech stack",
-        "Muhammed sinan Portfolio",
+        "Ajay Bind",
+        "Ajay Bind Developer",
+        "Ajay Bind Full Stack Developer",
+        "Ajay Bind Jaunpur, Uttar Pradesh, India",
+        "Ajay Bind Portfolio",
+        "Ajay Bind projects",
+        "Ajay Bind tech stack",
+        "Ajay Bind Portfolio",
         "Full Stack Developer Portfolio",
         "MERN Stack Specialist",
         "React Developer Portfolio",
@@ -23,43 +24,45 @@ export const metadata: Metadata = {
         "India MERN Stack Developer",
         "Kozhikode Software Engineer",
         "Portfolio Web Developer India",
-        "Muhammed Sinan MERN",
+        "Ajay Bind MERN",
         "Software Engineer Portfolio India",
         "MERN Developer in Kerala",
-        "Muhammed Sinan Professional Portfolio",
+        "Ajay Bind Professional Portfolio",
         "Top MERN Stack Developer India",
         "Next.js Developer Portfolio",
-        "Muhammed sinan kozhikode"
+        "Ajay Bind Jaunpur",
+        "Express.js Developer Portfolio",
+        "MongoDB Developer Portfolio",
     ],
     authors: [
         {
-            name: "Muhammed Sinan",
-            url: "https://github.com/sinanptm",
+            name: "Ajay Bind",
+            url: "https://github.com/ajay1214",
         }
     ],
-    creator: "Muhammed Sinan (sinanptm)",
-    publisher: "sinanptm",
+    creator: "Ajay Bind (ajay1214)",
+    publisher: "ajay1214",
     formatDetection: {
         email: false,
         address: false,
         telephone: false,
     },
-    applicationName: "sinanptm Portfolio",
+    applicationName: "Ajay Portfolio",
     generator: "Next.js",
     referrer: "origin-when-cross-origin",
     openGraph: {
         type: "website",
         locale: "en_US",
         url: hostedUrl,
-        siteName: "sinanptm Portfolio",
+        siteName: "Ajay Portfolio",
         title: `${profile.name} | ${profile.title}`,
         description: "Full Stack Developer specializing in MERN stack development. Building scalable web applications with React, Node.js, Express, MongoDB, and Next.js.",
         images: [
             {
-                url: "/screenshots/og-image.jpg",
+                url: "/screenshots/ajayPic.png",
                 width: 1200,
                 height: 630,
-                alt: "Muhammed Sinan - Full Stack Developer Portfolio",
+                alt: "Ajay Bind - Full Stack Developer Portfolio",
                 type: "image/png",
             }
         ],
@@ -67,7 +70,7 @@ export const metadata: Metadata = {
     },
     appleWebApp: {
         capable: true,
-        title: "Sinan ptm Portfolio",
+        title: "Ajay Portfolio",
         statusBarStyle: "black-translucent",
     },
     verification: {
@@ -95,23 +98,23 @@ export const metadata: Metadata = {
     },
     icons: {
         icon: [
-            { url: "/icons/favicon.ico" },
-            { url: "/icons/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-            { url: "/icons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-            { url: "/icons/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+            { url: "/icons/ajayIco.ico" },
+            { url: "/icons/ajayPic16x16.png", sizes: "16x16", type: "image/png" },
+            { url: "/icons/ajayPic32x32.png", sizes: "32x32", type: "image/png" },
+            { url: "/icons/ajayPic96x96.png", sizes: "96x96", type: "image/png" },
         ],
         apple: [
-            { url: "/icons/apple-icon-57x57.png", sizes: "57x57", type: "image/png" },
-            { url: "/icons/apple-icon-60x60.png", sizes: "60x60", type: "image/png" },
-            { url: "/icons/apple-icon-72x72.png", sizes: "72x72", type: "image/png" },
-            { url: "/icons/apple-icon-76x76.png", sizes: "76x76", type: "image/png" },
-            { url: "/icons/apple-icon-114x114.png", sizes: "114x114", type: "image/png" },
-            { url: "/icons/apple-icon-120x120.png", sizes: "120x120", type: "image/png" },
-            { url: "/icons/apple-icon-144x144.png", sizes: "144x144", type: "image/png" },
-            { url: "/icons/apple-icon-152x152.png", sizes: "152x152", type: "image/png" },
-            { url: "/icons/apple-icon-180x180.png", sizes: "180x180", type: "image/png" },
+            { url: "/icons/ajayPic57x57.png", sizes: "57x57", type: "image/png" },
+            { url: "/icons/ajayPic60x60.png", sizes: "60x60", type: "image/png" },
+            { url: "/icons/ajayPic72x72.png", sizes: "72x72", type: "image/png" },
+            { url: "/icons/ajayPic76x76.png", sizes: "76x76", type: "image/png" },
+            { url: "/icons/ajayPic114x114.png", sizes: "114x114", type: "image/png" },
+            { url: "/icons/ajayPic120x120.png", sizes: "120x120", type: "image/png" },
+            { url: "/icons/ajayPic144x144.png", sizes: "144x144", type: "image/png" },
+            { url: "/icons/ajayPic152x152.png", sizes: "152x152", type: "image/png" },
+            { url: "/icons/ajayPic180x180.png", sizes: "180x180", type: "image/png" },
         ],
-        shortcut: ["/icons/favicon.ico"]
+        shortcut: ["/icons/ajayIco.ico"]
     },
     manifest: "/manifest.json",
     alternates: {
@@ -127,7 +130,7 @@ export const metadata: Metadata = {
     other: {
         "google-site-verification": "google332e521595495b52",
         "msapplication-TileColor": "#d830dc",
-        "msapplication-TileImage": "/icons/ms-icon-144x144.png",
+        "msapplication-TileImage": "/icons/ajayPic144x144.png",
         "msapplication-config": "/browserconfig.xml",
         "llms-txt": `${hostedUrl}/llms.txt`
     },

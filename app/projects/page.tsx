@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Projects",
   description: "Explore my portfolio of web development projects. From full-stack applications to responsive websites, see how I solve real-world problems with code.",
   openGraph: {
-    title: "Projects | Muhammed Sinan",
+    title: "Projects | Ajay Bind",
     description: "Portfolio of innovative web development projects built with modern technologies",
     images: [
       {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Projects | Muhammed Sinan",
+    title: "Projects | Ajay Bind",
     description: "Portfolio of innovative web development projects built with modern technologies",
     images: ["/screenshots/projects-og.png"],
   },

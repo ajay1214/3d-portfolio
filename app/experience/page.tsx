@@ -5,10 +5,10 @@ import { experiencePageSchema, workExperienceSchema } from './schema';
 import SchemaScripts from '@/components/SchemaScripts';
 
 export const metadata: Metadata = {
-    title: "Experience | Muhammed Sinan",
+    title: "Experience | Ajay Bind",
     description: "Explore my professional journey as a full-stack developer. From freelance projects to open-source contributions, see my growth and achievements.",
     openGraph: {
-        title: "Experience | Muhammed Sinan",
+        title: "Experience | Ajay Bind",
         description: "Professional journey and achievements as a full-stack developer",
         images: [
             {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Experience | Muhammed Sinan",
+        title: "Experience | Ajay Bind",
         description: "Professional journey and achievements as a full-stack developer",
         images: ["/screenshots/experience-og.png"],
     },

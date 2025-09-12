@@ -89,30 +89,22 @@ export const baseUrlTech = "/assets/tech";
 
 export const techCategories: TechCategory[] = [
     {
-        id: 'backend',
-        name: 'Backend Development',
-        description: 'Server-side frameworks, APIs, and authentication',
-        icon: '⚙️',
-        color: 'from-green-500 to-emerald-500',
-        technologies: [
-            // Backend Frameworks
-            { name: "NodeJS", url: `${baseUrlTech}/nodejs.svg` },
-            { name: "ExpressJS", url: `${baseUrlTech}/express.svg` },
-            { name: "Nest JS", url: `${baseUrlTech}/nestjs.svg` },
-
-            // Real-time Communication
-            { name: "Socket.io", url: `${baseUrlTech}/socket-io.svg` },
-            { name: "WebRTC", url: `${baseUrlTech}/webrtc.svg` },
-
-            // Authentication & Authorization
-            { name: "JWT", url: `${baseUrlTech}/jwt.png` },
-            { name: "OAuth", url: `${baseUrlTech}/oauth.svg` },
-            { name: "Passport Js", url: `${baseUrlTech}/passport.png` },
-
-            // HTTP & API Tools
-            { name: "Axios", url: `${baseUrlTech}/axios.svg` },
-
-        ]
+        id: 'languages',
+        name: 'Programming Languages',
+        description: 'Programming languages and Computer Science fundamentals',
+        icon: '👩🏻‍💻',
+        color: 'from-blue-500 to-cyan-500',
+            technologies: [
+                // Languages & cs fundamentals
+                { name: "C++", url: `${baseUrlTech}/react.svg` },
+                { name: "Python", url: `${baseUrlTech}/nextjs.svg` },
+                { name: "Data Structures & Algorithms", url: `${baseUrlTech}/jquery.svg` },
+                { name: "OOPs", url: `${baseUrlTech}/vite.svg` },
+                { name: "Operating Systems", url: `${baseUrlTech}/react.svg` },
+                { name: "DBMS", url: `${baseUrlTech}/jquery.svg` },
+                { name: "Computer Networks", url: `${baseUrlTech}/javascript.svg` },
+                { name: "HTML", url: `${baseUrlTech}/react.svg` },
+            ]
     },
     {
         id: 'frontend-core',
@@ -120,23 +112,48 @@ export const techCategories: TechCategory[] = [
         description: 'Core frontend frameworks, languages, and build tools',
         icon: '🎨',
         color: 'from-blue-500 to-cyan-500',
+            technologies: [
+                // Languages & Frameworks
+                { name: "TypeScript", url: `${baseUrlTech}/typescript.svg` },
+                { name: "JavaScript", url: `${baseUrlTech}/javascript.svg` },
+                { name: "ReactJS", url: `${baseUrlTech}/react.svg` },
+                { name: "Next JS", url: `${baseUrlTech}/nextjs.svg` },
+                { name: "Vite", url: `${baseUrlTech}/vite.svg` },
+                { name: "jQuery", url: `${baseUrlTech}/jquery.svg` },
+    
+                // State Management & Forms
+                { name: "Redux", url: `${baseUrlTech}/redux.svg` },
+                { name: "React Query", url: `${baseUrlTech}/react-query.svg` },
+                { name: "React Form", url: `${baseUrlTech}/react-hook-form.svg` },
+                { name: "Zod", url: `${baseUrlTech}/zod.svg` },
+            ]
+        },
+        {
+            id: 'backend',
+            name: 'Backend Development',
+            description: 'Server-side frameworks, APIs, and authentication',
+            icon: '⚙️',
+            color: 'from-green-500 to-emerald-500',
         technologies: [
-            // Languages & Frameworks
-            { name: "TypeScript", url: `${baseUrlTech}/typescript.svg` },
-            { name: "JavaScript", url: `${baseUrlTech}/javascript.svg` },
-            { name: "ReactJS", url: `${baseUrlTech}/react.svg` },
-            { name: "Next JS", url: `${baseUrlTech}/nextjs.svg` },
-            { name: "Vite", url: `${baseUrlTech}/vite.svg` },
-            { name: "jQuery", url: `${baseUrlTech}/jquery.svg` },
+            // Backend Frameworks
+            { name: "NodeJS", url: `${baseUrlTech}/nodejs.svg` },
+            { name: "ExpressJS", url: `${baseUrlTech}/express.svg` },
+            // { name: "Nest JS", url: `${baseUrlTech}/nestjs.svg` },
 
-            // State Management & Forms
-            { name: "Redux", url: `${baseUrlTech}/redux.svg` },
-            { name: "React Query", url: `${baseUrlTech}/react-query.svg` },
-            { name: "Nuqs", url: `${baseUrlTech}/nuqs.svg` },
-            { name: "React Form", url: `${baseUrlTech}/react-hook-form.svg` },
-            { name: "Zod", url: `${baseUrlTech}/zod.svg` },
-            { name: "Joi", url: `${baseUrlTech}/joi.svg` },
+            // Real-time Communication
+            { name: "Socket.io", url: `${baseUrlTech}/socket-io.svg` },
+            // { name: "WebRTC", url: `${baseUrlTech}/webrtc.svg` },
+
+            // Authentication & Authorization
+            { name: "JWT", url: `${baseUrlTech}/jwt.png` },
+            { name: "OAuth", url: `${baseUrlTech}/oauth.svg` },
+            // { name: "Passport Js", url: `${baseUrlTech}/passport.png` },
+
+            // HTTP & API Tools
+            { name: "Axios", url: `${baseUrlTech}/axios.svg` },
+
         ]
+        
     },
     {
         id: 'database',
@@ -149,13 +166,13 @@ export const techCategories: TechCategory[] = [
             { name: "MongoDB", url: `${baseUrlTech}/mongodb.svg` },
             { name: "Postgres", url: `${baseUrlTech}/postgresql.svg` },
             { name: "MySQL", url: `${baseUrlTech}/mysql.svg` },
-            { name: "Redis", url: `${baseUrlTech}/redis.png` },
+            // { name: "Redis", url: `${baseUrlTech}/redis.png` },
 
             // Backend as a Service
-            { name: "Supabase", url: `${baseUrlTech}/supabase.png` },
+            // { name: "Supabase", url: `${baseUrlTech}/supabase.png` },
             { name: "Firebase", url: `${baseUrlTech}/firebase.svg` },
-            { name: "Appwrite", url: `${baseUrlTech}/appwrite.svg` },
-            { name: "Strapi", url: `/assets/org/strapi.png` },
+            // { name: "Appwrite", url: `${baseUrlTech}/appwrite.svg` },
+            // { name: "Strapi", url: `/assets/org/strapi.png` },
         ]
     },
     {
@@ -169,44 +186,44 @@ export const techCategories: TechCategory[] = [
             { name: "AWS", url: `${baseUrlTech}/aws.svg` },
             { name: "Vercel", url: `${baseUrlTech}/vercel.svg` },
             { name: "Render", url: `${baseUrlTech}/render.svg` },
-            { name: "Hostinger", url: `${baseUrlTech}/hostinger.png` },
+            // { name: "Hostinger", url: `${baseUrlTech}/hostinger.png` },
             { name: "Cloudinary", url: `${baseUrlTech}/cloudinary.png` },
-            { name: "Hetzner", url: `${baseUrlTech}/hetzner.ico` },
-            { name: "SendGrid", url: `${baseUrlTech}/sendgrid.png` }
+            // { name: "Hetzner", url: `${baseUrlTech}/hetzner.ico` },
+            // { name: "SendGrid", url: `${baseUrlTech}/sendgrid.png` }
         ]
     },
-    {
-        id: 'mobile',
-        name: 'Mobile Development',
-        description: 'Cross-platform mobile applications',
-        icon: '📱',
-        color: 'from-purple-500 to-pink-500',
-        technologies: [
-            { name: "React Native", url: `${baseUrlTech}/react.svg` },
-            { name: "Expo", url: `${baseUrlTech}/expo.svg` },
-        ]
-    },
-    {
-        id: 'ai-payments',
-        name: 'AI & Payment Systems',
-        description: 'AI services and payment integration',
-        icon: '🤖',
-        color: 'from-violet-500 to-purple-500',
-        technologies: [
-            // AI & Machine Learning
-            { name: "OpenAI", url: `${baseUrlTech}/openai.svg` },
-            { name: "Google AI", url: `${baseUrlTech}/google-ai.svg` },
-            { name: "Hugging Face", url: `${baseUrlTech}/huggingface.png` },
-            { name: "Together ai", url: `${baseUrlTech}/together-ai.png` },
-            { name: "Gradio", url: `${baseUrlTech}/gradio.png` },
+    // {
+    //     id: 'mobile',
+    //     name: 'Mobile Development',
+    //     description: 'Cross-platform mobile applications',
+    //     icon: '📱',
+    //     color: 'from-purple-500 to-pink-500',
+    //     technologies: [
+    //         { name: "React Native", url: `${baseUrlTech}/react.svg` },
+    //         { name: "Expo", url: `${baseUrlTech}/expo.svg` },
+    //     ]
+    // },
+    // {
+    //     id: 'ai-payments',
+    //     name: 'AI & Payment Systems',
+    //     description: 'AI services and payment integration',
+    //     icon: '🤖',
+    //     color: 'from-violet-500 to-purple-500',
+    //     technologies: [
+    //         // AI & Machine Learning
+    //         { name: "OpenAI", url: `${baseUrlTech}/openai.svg` },
+    //         { name: "Google AI", url: `${baseUrlTech}/google-ai.svg` },
+    //         // { name: "Hugging Face", url: `${baseUrlTech}/huggingface.png` },
+    //         // { name: "Together ai", url: `${baseUrlTech}/together-ai.png` },
+    //         // { name: "Gradio", url: `${baseUrlTech}/gradio.png` },
 
-            // Payment Systems
-            { name: "Stripe", url: `${baseUrlTech}/stripe.svg` },
-            { name: "Razorpay", url: `${baseUrlTech}/razorpay.svg` },
-            { name: "Dodo", url: `${baseUrlTech}/dodo.png` },
-            { name: "Chappa", url: `${baseUrlTech}/chappa.svg` },
-        ]
-    },
+    //         // Payment Systems
+    //         { name: "Stripe", url: `${baseUrlTech}/stripe.svg` },
+    //         { name: "Razorpay", url: `${baseUrlTech}/razorpay.svg` },
+    //         // { name: "Dodo", url: `${baseUrlTech}/dodo.png` },
+    //         // { name: "Chappa", url: `${baseUrlTech}/chappa.svg` },
+    //     ]
+    // },
     {
         id: 'ui-design',
         name: 'UI & Design Systems',
@@ -219,71 +236,71 @@ export const techCategories: TechCategory[] = [
             { name: "Bootstrap", url: `${baseUrlTech}/bootstrap.svg` },
             { name: "Framer Motion", url: `${baseUrlTech}/framer-motion.svg` },
             { name: "Three.JS", url: `${baseUrlTech}/threejs-1.svg` },
-            { name: "Rombo", url: `${baseUrlTech}/rombo.svg` },
+            // { name: "Rombo", url: `${baseUrlTech}/rombo.svg` },
             { name: "Figma", url: `${baseUrlTech}/figma-icon.svg` },
 
             // UI Component Libraries
             { name: "Shadcn", url: `${baseUrlTech}/shadcn.svg` },
-            { name: "Radix UI", url: `${baseUrlTech}/radix-ui.svg` },
+            // { name: "Radix UI", url: `${baseUrlTech}/radix-ui.svg` },
             { name: "Mui UI", url: `${baseUrlTech}/mui.png` },
-            { name: "Aceternity", url: `${baseUrlTech}/aceternity.png` },
-            { name: "Origin Ui", url: `${baseUrlTech}/origin.ico` },
+            // { name: "Aceternity", url: `${baseUrlTech}/aceternity.png` },
+            // { name: "Origin Ui", url: `${baseUrlTech}/origin.ico` },
             { name: "Chart.js", url: `${baseUrlTech}/chartjs.svg` },
         ]
     },
-    {
-        id: 'cli-tools',
-        name: 'CLI Development Tools',
-        description: 'Command-line interface development libraries',
-        icon: '⌨️',
-        color: 'from-slate-500 to-gray-600',
-        technologies: [
-            { name: "Chalk", url: `${baseUrlTech}/chalk.svg` },
-            { name: "Commander", url: `${baseUrlTech}/commander.svg` },
-            { name: "Execa", url: `${baseUrlTech}/execa.svg` },
-            { name: "Inquirer", url: `${baseUrlTech}/inquirer.svg` },
-            { name: "Ora", url: `${baseUrlTech}/ora.svg` },
-        ]
-    },
-    {
-        id: 'devops-testing',
-        name: 'DevOps & Testing',
-        description: 'CI/CD, containerization, testing, and code quality tools',
-        icon: '🚀',
-        color: 'from-blue-600 to-purple-600',
-        technologies: [
-            // DevOps & CI/CD
-            { name: "Docker", url: `${baseUrlTech}/docker.svg` },
-            { name: "GitHub Actions", url: `${baseUrlTech}/github-action.svg` },
-            { name: "Nginx", url: `${baseUrlTech}/nginx.svg` },
+    // {
+    //     id: 'cli-tools',
+    //     name: 'CLI Development Tools',
+    //     description: 'Command-line interface development libraries',
+    //     icon: '⌨️',
+    //     color: 'from-slate-500 to-gray-600',
+    //     technologies: [
+    //         { name: "Chalk", url: `${baseUrlTech}/chalk.svg` },
+    //         { name: "Commander", url: `${baseUrlTech}/commander.svg` },
+    //         { name: "Execa", url: `${baseUrlTech}/execa.svg` },
+    //         { name: "Inquirer", url: `${baseUrlTech}/inquirer.svg` },
+    //         { name: "Ora", url: `${baseUrlTech}/ora.svg` },
+    //     ]
+    // },
+    // {
+    //     id: 'devops-testing',
+    //     name: 'DevOps & Testing',
+    //     description: 'CI/CD, containerization, testing, and code quality tools',
+    //     icon: '🚀',
+    //     color: 'from-blue-600 to-purple-600',
+    //     technologies: [
+    //         // DevOps & CI/CD
+    //         { name: "Docker", url: `${baseUrlTech}/docker.svg` },
+    //         { name: "GitHub Actions", url: `${baseUrlTech}/github-action.svg` },
+    //         // { name: "Nginx", url: `${baseUrlTech}/nginx.svg` },
 
-            // Testing & Code Quality
-            { name: "Jest", url: `${baseUrlTech}/jest.png` },
-            { name: "ESLint", url: `${baseUrlTech}/eslint.svg` },
-            { name: "Biome", url: `${baseUrlTech}/biome.svg` },
+    //         // Testing & Code Quality
+    //         // { name: "Jest", url: `${baseUrlTech}/jest.png` },
+    //         { name: "ESLint", url: `${baseUrlTech}/eslint.svg` },
+    //         // { name: "Biome", url: `${baseUrlTech}/biome.svg` },
 
-            // API Testing
-            { name: "Postman", url: `${baseUrlTech}/postman.svg` },
-            { name: "Thunder Client", url: `${baseUrlTech}/thunder-client.png` },
-        ]
-    },
+    //         // API Testing
+    //         { name: "Postman", url: `${baseUrlTech}/postman.svg` },
+    //         { name: "Thunder Client", url: `${baseUrlTech}/thunder-client.png` },
+    //     ]
+    // },
     {
-        id: 'tools-utilities',
-        name: 'Development Utilities',
-        description: 'Package managers, monitoring, and development utilities',
-        icon: '🛠️',
-        color: 'from-amber-500 to-orange-500',
+        id: 'ai-ml',
+        name: 'AI & Machine Learning',
+        description: 'AI services and machine learning frameworks',
+        icon: '🤖',
+        color: 'from-violet-500 to-purple-500',
         technologies: [
             // Package Managers
-            { name: "NPM", url: `${baseUrlTech}/npm.svg` },
-            { name: "PNPM", url: `${baseUrlTech}/pnpm.png` },
-            { name: "YARN", url: `${baseUrlTech}/yarn.png` },
+            { name: "Data Analysis", url: `${baseUrlTech}/npm.svg` },
+            // { name: "PNPM", url: `${baseUrlTech}/pnpm.png` },
+            { name: "Jupiter", url: `${baseUrlTech}/yarn.png` },
 
             // Monitoring & Analytics
-            { name: "Vercel Analytics", url: `${baseUrlTech}/vercel-analytics.svg` },
+            { name: "Kaggle", url: `${baseUrlTech}/vercel-analytics.svg` },
             { name: "Google Analytics", url: `${baseUrlTech}/google-analytics.svg` },
-            { name: "Winston", url: `${baseUrlTech}/winston.svg` },
-            { name: "PM2", url: `${baseUrlTech}/pm2.png` },
+            // { name: "Winston", url: `${baseUrlTech}/winston.svg` },
+            // { name: "PM2", url: `${baseUrlTech}/pm2.png` },
         ]
     }
 ];

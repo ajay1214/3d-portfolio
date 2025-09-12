@@ -40,7 +40,7 @@ const Experience = () => {
                                     }
                                 }}
                             >
-                                Professional Journey
+                                Academic Journey
                             </motion.h1>
                         </div>
 
@@ -59,8 +59,7 @@ const Experience = () => {
                                 }
                             }}
                         >
-                            Explore my career path and professional growth as a developer. Each role has contributed to my technical
-                            expertise and problem-solving abilities, shaping me into the developer I am today.
+                            From Learning to Building, How Each Experience Shaped Me into the Developer I Am Today.
                         </motion.p>
                     </div>
 

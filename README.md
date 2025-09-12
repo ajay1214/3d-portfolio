@@ -17,12 +17,12 @@
   </div>
 </div>
 
-<div align="center" style="margin-top: 40px;">
+<!-- <div align="center" style="margin-top: 40px;">
   <h2 style="color: #4a4a4a; font-size: 2.5em;">🚀 Portfolio Performance & SEO</h2>
   <img src="https://github.com/user-attachments/assets/7dcf5154-6eb3-49bf-b3bb-6d6286fa1e03" alt="Lighthouse Performance Report" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <p style="font-style: italic; color: #666; margin-top: 20px;">Achieving top scores in SEO, Best Practices, and Accessibility ensures a superior user experience and discoverability!</p>
   <a href="https://pagespeed.web.dev/analysis/https-www-muhammedsinan-space/gi4vn5371x?hl=en_GB&form_factor=desktop">Lighthouse Performance Report</a>
-</div>
+</div> -->
 
 <h2 style="color: #4a4a4a; font-size: 2.5em; margin-top: 40px;">✨ Features</h2>
 
@@ -50,7 +50,7 @@
   </ul>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+<!-- <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
   <h3 style="color: #4a4a4a; font-size: 1.8em;">🔄 GitHub Integration</h3>
   <ul style="list-style-type: none; padding-left: 0;">
     <li style="margin-bottom: 10px;">
@@ -66,7 +66,7 @@
     <li style="margin-bottom: 10px;"><strong style="color: #0066cc;">Project Showcase:</strong> Automatic import of pinned repositories</li>
     <li><strong style="color: #0066cc;">Rate Limit Handling:</strong> Optimized API calls with token authentication</li>
   </ul>
-</div>
+</div> -->
 
 <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
   <h3 style="color: #4a4a4a; font-size: 1.8em;">🎮 3D Models & Environment</h3>
@@ -96,7 +96,7 @@
     <li style="margin-bottom: 10px;"><strong style="color: #0066cc;">Responsive Design:</strong> Adapts to all screen sizes</li>
     <li style="margin-bottom: 10px;"><strong style="color: #0066cc;">SEO Optimized:</strong> Enhanced search engine visibility</li>
     <li style="margin-bottom: 10px;"><strong style="color: #0066cc;">Performance Optimized:</strong> Fast loading times</li>
-    <li><strong style="color: #0066cc;">Accessibility:</strong> WCAG compliant design elements</li>
+    <!-- <li><strong style="color: #0066cc;">Accessibility:</strong> WCAG compliant design elements</li> -->
   </ul>
 </div>
 
@@ -110,7 +110,7 @@ cd portfolio</code></pre>
   </li>
   <li style="counter-increment: item; margin-bottom: 20px;">
     <strong style="color: #0066cc; font-size: 1.2em;">Install dependencies:</strong>
-    <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>pnpm install</code></pre>
+    <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>npm install</code></pre>
   </li>
   <li style="counter-increment: item; margin-bottom: 20px;">
     <strong style="color: #0066cc; font-size: 1.2em;">Set up environment variables:</strong>
@@ -126,7 +126,7 @@ NEXT_PUBLIC_GITHUB_TOKEN=your_github_apiToken</code></pre>
   </li>
   <li style="counter-increment: item; margin-bottom: 20px;">
     <strong style="color: #0066cc; font-size: 1.2em;">Start the development server:</strong>
-    <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>pnpm run dev</code></pre>
+    <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>npm run dev</code></pre>
   </li>
   <li style="counter-increment: item;">
     <strong style="color: #0066cc; font-size: 1.2em;">View the portfolio:</strong>
@@ -193,7 +193,7 @@ padding-left: 20px;">
   </li>
 </ol>
 
-<h3 style="color: #4a4a4a; font-size: 1.8em;">3D Environment Customization</h3>
+<!-- <h3 style="color: #4a4a4a; font-size: 1.8em;">3D Environment Customization</h3>
 
 <p><strong style="color: #0066cc;">Desktop Wallpaper:</strong></p>
 
@@ -204,9 +204,9 @@ padding-left: 20px;">
       <p>⚠️ <strong>Note:</strong> The model displays a mirror reflection, so rotate your image horizontally before saving</p>
     </blockquote>
   </li>
-</ol>
+</ol> -->
 
 <div align="center" style="margin-top: 40px; padding: 20px; background-color: #f0f0f0; border-radius: 10px;">
-  <p style="font-style: italic; color: #666;">Made with ❤️ by <a href="https://github.com/sinanptm" style="color: #0066cc; text-decoration: none;">Muhammed Sinan</a></p>
+  <p style="font-style: italic; color: #666;">Made with ❤️ by <a href="https://github.com/sinanptm" style="color: #0066cc; text-decoration: none;">Ajay Bind</a></p>
 </div>
 

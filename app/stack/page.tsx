@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Technology Stack",
   description: "Explore the cutting-edge technologies and tools I use for web development including React, Node.js, MongoDB, and more. See how I create efficient, scalable applications.",
   openGraph: {
-    title: "Technology Stack | Muhammed Sinan",
+    title: "Technology Stack | Ajay Bind",
     description: "Discover the modern tech stack and development tools I use to build powerful web applications",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Technology Stack | Muhammed Sinan",
+    title: "Technology Stack | Ajay Bind",
     description: "Discover the modern tech stack and development tools I use to build powerful web applications",
     images: ["/screenshots/stack-og.png"],
   },

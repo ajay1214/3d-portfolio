@@ -4,11 +4,10 @@ import { memo } from 'react';
 
 const Expertise = () => {
     const expertiseAreas = [
+        { icon: IconCloudComputing, title: "Software Developement", description: "Problem Solving | Building Solutions" },
         { icon: IconCode, title: "Frontend", description: "Intuitive UIs" },
         { icon: IconServer, title: "Backend", description: "Robust systems" },
-        { icon: IconCloudComputing, title: "DevOps", description: "Seamless deployment" },
-        { icon: IconTestPipe, title: "Testing", description: "Quality assurance" },
-        { icon: IconServer2, title: "Hosting", description: "Reliable infrastructure" },
+        { icon: IconTestPipe, title: "AI & Machine Learning", description: "Automate Tasks | Improve Processes | Analyze Data" },
     ];
 
     return (
@@ -22,7 +21,7 @@ const Expertise = () => {
                 <path d="M0,0 C25,50 75,50 100,0 L100,100 L0,100 Z" fill="rgba(59, 130, 246, 0.1)" />
                 <path d="M0,100 C25,50 75,50 100,100" fill="none" stroke="rgba(59, 130, 246, 0.5)" strokeWidth="0.5" />
             </svg>
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-4 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-2 relative z-10">
                 {expertiseAreas.map((area, index) => (
                     <motion.div
                         key={index}
