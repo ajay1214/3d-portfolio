@@ -2,16 +2,16 @@
   <h1 style="color: #4a4a4a; font-size: 3em; margin-bottom: 10px;">🌟 3D Interactive Portfolio</h1>
   <p style="font-style: italic; color: #666; margin-bottom: 20px;">A unique and immersive way to showcase your skills and projects</p>
   <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <a href="https://github.com/sinanptm/portfolio" style="text-decoration: none;">
+    <a href="https://github.com/ajay1214/3d-portfolio" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/-3D%20Environment-blueviolet?style=for-the-badge" alt="3D Environment">
     </a>
-    <a href="https://github.com/sinanptm/portfolio" style="text-decoration: none;">
+    <a href="https://github.com/ajay1214/3d-portfolio" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/-Customizable-orange?style=for-the-badge" alt="Customizable">
     </a>
-    <a href="https://github.com/sinanptm/portfolio" style="text-decoration: none;">
+    <a href="https://github.com/ajay1214/3d-portfolio" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/-Responsive-blue?style=for-the-badge" alt="Responsive">
     </a>
-    <a href="https://github.com/sinanptm/portfolio" style="text-decoration: none;">
+    <a href="https://github.com/ajay1214/3d-portfolio" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/-Interactive-green?style=for-the-badge" alt="Interactive">
     </a>
   </div>
@@ -105,7 +105,7 @@
 <ol style="list-style-type: none; counter-reset: item; padding-left: 0;">
   <li style="counter-increment: item; margin-bottom: 20px;">
     <strong style="color: #0066cc; font-size: 1.2em;">Clone the repository:</strong>
-    <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>git clone https://github.com/sinanptm/portfolio.git
+    <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>git clone https://github.com/ajay1214/3d-portfolio.git
 cd portfolio</code></pre>
   </li>
   <li style="counter-increment: item; margin-bottom: 20px;">
@@ -207,6 +207,6 @@ padding-left: 20px;">
 </ol> -->
 
 <div align="center" style="margin-top: 40px; padding: 20px; background-color: #f0f0f0; border-radius: 10px;">
-  <p style="font-style: italic; color: #666;">Made with ❤️ by <a href="https://github.com/sinanptm" style="color: #0066cc; text-decoration: none;">Ajay Bind</a></p>
+  <p style="font-style: italic; color: #666;">Made with ❤️ by <a href="https://github.com/ajay1214" style="color: #0066cc; text-decoration: none;">Ajay Bind</a></p>
 </div>
 

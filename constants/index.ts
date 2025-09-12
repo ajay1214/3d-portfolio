@@ -6,7 +6,7 @@ export const profile = {
 B.Tech graduate from NIT Warangal, currently pursuing M.Tech in CSE at NIT Hamirpur. 
 
 Passionate about problem-solving and software development, with strong skills in C++, Python, DSA, and hands-on experience in full-stack development (MERN), plus exposure to AI/ML.`,
-  gitHub: "https://github.com/sinanptm/portfolio",
+  gitHub: "https://github.com/ajay1214/3d-portfolio",
   name: "Ajay Bind",
   title: "Full Stack Developer",
   gitHubUserName: "ajay1214",
