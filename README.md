@@ -106,7 +106,7 @@
   <li style="counter-increment: item; margin-bottom: 20px;">
     <strong style="color: #0066cc; font-size: 1.2em;">Clone the repository:</strong>
     <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>git clone https://github.com/ajay1214/3d-portfolio.git
-cd portfolio</code></pre>
+cd 3d-portfolio</code></pre>
   </li>
   <li style="counter-increment: item; margin-bottom: 20px;">
     <strong style="color: #0066cc; font-size: 1.2em;">Install dependencies:</strong>
@@ -115,7 +115,7 @@ cd portfolio</code></pre>
   <li style="counter-increment: item; margin-bottom: 20px;">
     <strong style="color: #0066cc; font-size: 1.2em;">Set up environment variables:</strong>
     <ul style="list-style-type: disc; padding-left: 20px;">
-      <li>Create a <code>.env</code> file in the root directory</li>
+      <li>Create a <code>.env.local</code> file in the root directory</li>
       <li>Add the following variables:
         <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;"><code>SENDER_EMAIL=your_email@example.com
 NODEMAILER_PASSKEY=your_nodemailer_password
