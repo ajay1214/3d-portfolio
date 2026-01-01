@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { IconCode, IconServer, IconCloudComputing, IconTestPipe, IconServer2 } from '@tabler/icons-react';
+import { IconCode, IconServer, IconCloudComputing, IconTestPipe } from '@tabler/icons-react';
 import { memo } from 'react';
 
 const Expertise = () => {
