@@ -234,7 +234,7 @@ export const projects: Project[] = [
         title: "ChatApp",
         description: "Developed a real-time chat application using the MERN stack with secure authentication (JWT), WebSocket-based communication (Socket.io), and MongoDB for scalable data storage.",
         detailedDescription: "Built a responsive chat application from scratch using MongoDB, Express, React, and Node.js. The app enables users to sign up, log in securely with JWT-based authentication, and communicate instantly through Socket.io-powered WebSockets. Implemented private and group chat functionality with real-time message delivery, online user status, and persistent chat history stored in MongoDB. Focused on scalability, security, and user experience, making it a solid project to demonstrate full-stack and real-time development skills.",
-        technologies: [3, 18, 19, 13, 10, 29, 77, 20, 36, 35, 37, 49],
+        technologies: [3, 18, 19, 13, 10, 29, 77, 20, 36, 37, 49],
         link: "https://chatapp-h2h0.onrender.com/",
         githubLink: "https://github.com/ajay1214/ChatApp",
         thumbnail: "/assets/projects/chatApp.png",
