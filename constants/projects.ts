@@ -1,4 +1,5 @@
 import { Project } from "@/types";
+import { technologies } from "./techData";
 
 /**
  * Add these indexes to your project according to technologies you used.
@@ -157,6 +158,20 @@ export const projects: Project[] = [
         ]
     },
     {
+        title: "Vehicle CO2 Emissions Predictor",
+        description: "A ML web application that predicts vehicle CO₂ emissions (g/km) using vehicle specifications and fuel consumption data with a Streamlit app",
+        detailedDescription: "A machine learning–powered web application that predicts vehicle CO₂ emissions (g/km) using vehicle specifications and fuel consumption data. This repository contains a minimal, production-ready Streamlit app that loads a serialized scikit-learn pipeline for inference.",
+        technologies: [12, 18, 19, 53, 54, 55, 56, 44],
+        link: "https://predict-vehicle-co2.streamlit.app/",
+        githubLink: "https://github.com/ajay1214/predict_vehicle_CO2",
+        thumbnail: "/assets/projects/vehicle_co2_prediction.jpg",
+        achievements: [
+            "🤖 Machine Learning Application → Predictive System: Built and deployed a machine learning web app to predict vehicle CO₂ emissions using a serialized scikit-learn pipeline.",
+            "🔄 End-to-End ML Workflow → Production Pipeline: Implemented the complete ML lifecycle including preprocessing, regression modeling, evaluation, and deployment via Streamlit.",
+            "🎨 User Interface → Interactive Experience: Created a clean, interactive UI for real-time inference with persistent user inputs."
+        ]
+    },
+    {
         title: "Image Transformation Platform",
         description: "An interactive web application designed to empower users with cutting-edge AI-driven image manipulation and enhancement tools. This platform provides a seamless, secure, and intuitive experience for users looking to transform their images effortlessly.",
         detailedDescription: "Developed a full-stack solution using Next.js, TypeScript, MongoDB, and Cloudinary, can deliver a smooth user experience for thousands of monthly active users. Implemented image processing algorithms and backend optimization, supporting five types of image transformations with efficient storage using cloud infrastructure. Created a credit system with Stripe with secure transactions and scalability, can handle thousands of concurrent users adhering to best practices in DevOps.",
@@ -177,6 +192,22 @@ export const projects: Project[] = [
             "🔢 Transformation Management -> Control Your Content: Manage your transformations with options to delete or update as needed.",
             "💳 Credits System & Purchase -> Credits for Transformations: Earn or purchase credits to use platform features. Integrated Stripe ensures secure transactions.",
             "📱 Responsive UI/UX -> Access Anywhere: Enjoy a consistent and user-friendly experience across all devices."
+        ]
+    },
+    {
+        title: "ColorRevive: Image & Video Colorization",
+        description: "ColorRevive is an AI-powered image and video colorization tool that uses deep learning to convert grayscale media into realistic color outputs. Built with Python, OpenCV, and Streamlit.",
+        detailedDescription: "ColorRevive explores the application of deep learning to transform grayscale images and videos into realistic, colorized versions. By utilizing pre-trained Convolutional Neural Networks (CNNs) and advanced image-processing techniques, this project demonstrates how AI can bridge the gap between monochrome nostalgia and vibrant modern visuals. The project features an interactive Streamlit web interface, allowing users to upload, process, and download colorized media effortlessly.",
+        technologies: [12, 18, 19, 53, 54, 55, 56, 44],
+        link: "https://color-revive.streamlit.app/",
+        githubLink: "https://github.com/ajay1214/ColorRevive",
+        thumbnail: "/assets/projects/colorrevive.png",
+        achievements: [
+            "🎨 AI Image & Video Colorization: Developed a deep learning–based system to automatically colorize grayscale images and videos using pre-trained CNN models.",
+            "🧠 Deep Learning Integration: Applied convolutional neural networks to predict chrominance (a, b) channels in the LAB color space for realistic color reconstruction.",
+            "🖼️ Image Processing Pipeline: Implemented RGB ↔ LAB color space conversions and post-processing using OpenCV for high-quality visual outputs.",
+            "🎥 Video Frame Processing: Designed a frame-by-frame video colorization workflow and reconstructed videos with consistent coloring across frames.",
+            "📦 Model Deployment: Integrated pre-trained model weights and architecture files for efficient inference without retraining."
         ]
     },
     {
@@ -203,7 +234,7 @@ export const projects: Project[] = [
         title: "ChatApp",
         description: "Developed a real-time chat application using the MERN stack with secure authentication (JWT), WebSocket-based communication (Socket.io), and MongoDB for scalable data storage.",
         detailedDescription: "Built a responsive chat application from scratch using MongoDB, Express, React, and Node.js. The app enables users to sign up, log in securely with JWT-based authentication, and communicate instantly through Socket.io-powered WebSockets. Implemented private and group chat functionality with real-time message delivery, online user status, and persistent chat history stored in MongoDB. Focused on scalability, security, and user experience, making it a solid project to demonstrate full-stack and real-time development skills.",
-        technologies: [1, 3, 0, 68, 20, 27, 33, 58, 51, 36],
+        technologies: [3, 18, 19, 13, 10, 29, 77, 20, 36, 35, 37, 49],
         link: "https://chatapp-h2h0.onrender.com/",
         githubLink: "https://github.com/ajay1214/ChatApp",
         thumbnail: "/assets/projects/chatApp.png",
@@ -223,7 +254,7 @@ export const projects: Project[] = [
         title: "Movie Found React App",
         description: "Developed a React-based movie discovery app using TMDb API to search for movies/TV shows, watch trailers, and view ratings, cast, and detailed information.",
         detailedDescription: "Built a Movie Finder application with React that integrates the TMDb (The Movie Database) API. The app allows users to search for movies and TV shows, fetch trailers, ratings, cast, and other details in real-time. Designed a clean, responsive interface with React and styled components/Tailwind, focusing on user-friendly search and quick access to relevant information. This project helped strengthen skills in API integration, state management, and UI development.",
-        technologies: [2, 0, 3, 20, 21, 24, 27, 33, 36, 37,],
+        technologies: [3,, 36, 35, 37, 49],
         link: "https://movie-found.vercel.app/",
         githubLink: "https://github.com/ajay1214/movie-found",
         isLinkedin: true,
