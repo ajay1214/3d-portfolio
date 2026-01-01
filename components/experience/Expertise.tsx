@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+// removed IconServer2
 import { IconCode, IconServer, IconCloudComputing, IconTestPipe } from '@tabler/icons-react';
 import { memo } from 'react';
 
