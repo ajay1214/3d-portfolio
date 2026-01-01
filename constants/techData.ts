@@ -96,14 +96,15 @@ export const techCategories: TechCategory[] = [
         color: 'from-blue-500 to-cyan-500',
             technologies: [
                 // Languages & cs fundamentals
-                { name: "C++", url: `${baseUrlTech}/react.svg` },
-                { name: "Python", url: `${baseUrlTech}/nextjs.svg` },
-                { name: "Data Structures & Algorithms", url: `${baseUrlTech}/jquery.svg` },
-                { name: "OOPs", url: `${baseUrlTech}/vite.svg` },
-                { name: "Operating Systems", url: `${baseUrlTech}/react.svg` },
-                { name: "DBMS", url: `${baseUrlTech}/jquery.svg` },
-                { name: "Computer Networks", url: `${baseUrlTech}/javascript.svg` },
-                { name: "HTML", url: `${baseUrlTech}/react.svg` },
+                { name: "C++", url: `${baseUrlTech}/cpp.svg` },
+                { name: "Python", url: `${baseUrlTech}/python.png` },
+                { name: "Data Structures & Algorithms", url: `${baseUrlTech}/dsa.svg` },
+                { name: "OOPs", url: `${baseUrlTech}/oops.svg` },
+                { name: "Operating Systems", url: `${baseUrlTech}/os.svg` },
+                { name: "DBMS", url: `${baseUrlTech}/dbms.svg` },
+                { name: "Computer Networks", url: `${baseUrlTech}/network.jpg` },
+                { name: "HTML", url: `${baseUrlTech}/html.svg` },
+                { name: "CSS", url: `${baseUrlTech}/css.svg ` },
             ]
     },
     {
@@ -114,18 +115,12 @@ export const techCategories: TechCategory[] = [
         color: 'from-blue-500 to-cyan-500',
             technologies: [
                 // Languages & Frameworks
-                { name: "TypeScript", url: `${baseUrlTech}/typescript.svg` },
                 { name: "JavaScript", url: `${baseUrlTech}/javascript.svg` },
                 { name: "ReactJS", url: `${baseUrlTech}/react.svg` },
                 { name: "Next JS", url: `${baseUrlTech}/nextjs.svg` },
+                { name: "TypeScript", url: `${baseUrlTech}/typescript.svg` },
                 { name: "Vite", url: `${baseUrlTech}/vite.svg` },
-                { name: "jQuery", url: `${baseUrlTech}/jquery.svg` },
     
-                // State Management & Forms
-                { name: "Redux", url: `${baseUrlTech}/redux.svg` },
-                { name: "React Query", url: `${baseUrlTech}/react-query.svg` },
-                { name: "React Form", url: `${baseUrlTech}/react-hook-form.svg` },
-                { name: "Zod", url: `${baseUrlTech}/zod.svg` },
             ]
         },
         {
@@ -148,9 +143,6 @@ export const techCategories: TechCategory[] = [
             { name: "JWT", url: `${baseUrlTech}/jwt.png` },
             { name: "OAuth", url: `${baseUrlTech}/oauth.svg` },
             // { name: "Passport Js", url: `${baseUrlTech}/passport.png` },
-
-            // HTTP & API Tools
-            { name: "Axios", url: `${baseUrlTech}/axios.svg` },
 
         ]
         
@@ -176,6 +168,25 @@ export const techCategories: TechCategory[] = [
         ]
     },
     {
+        id: 'ai-ml',
+        name: 'AI & Machine Learning',
+        description: 'AI services and machine learning frameworks',
+        icon: '🤖',
+        color: 'from-violet-500 to-purple-500',
+        technologies: [
+            // Package Managers
+            { name: "Numpy", url: `${baseUrlTech}/numpy.svg` },
+            { name: "Pandas", url: `${baseUrlTech}/pandas.svg` },
+            { name: "Data Analysis", url: `${baseUrlTech}/dataanalytics.png` },
+            { name: "Machine Learning", url: `${baseUrlTech}/machinelearning.svg` },
+            { name: "Deep Learning", url: `${baseUrlTech}/deeplearning.svg` },
+            { name: "tensorFlow", url: `${baseUrlTech}/tensorflow.png` },
+            { name: "Scikit-learn", url: `${baseUrlTech}/scikit-learn.svg` },
+            { name: "Jupiter", url: `${baseUrlTech}/jupiter.png` },
+            { name: "Kaggle", url: `${baseUrlTech}/kaggle.png` },
+        ]
+    },
+    {
         id: 'cloud-hosting',
         name: 'Cloud & Hosting',
         description: 'Cloud platforms, hosting services, and infrastructure',
@@ -186,9 +197,9 @@ export const techCategories: TechCategory[] = [
             { name: "AWS", url: `${baseUrlTech}/aws.svg` },
             { name: "Vercel", url: `${baseUrlTech}/vercel.svg` },
             { name: "Render", url: `${baseUrlTech}/render.svg` },
-            // { name: "Hostinger", url: `${baseUrlTech}/hostinger.png` },
+            { name: "Hostinger", url: `${baseUrlTech}/hostinger.png` },
             { name: "Cloudinary", url: `${baseUrlTech}/cloudinary.png` },
-            // { name: "Hetzner", url: `${baseUrlTech}/hetzner.ico` },
+            { name: "Streamlit", url: `${baseUrlTech}/streamlit.png` },
             // { name: "SendGrid", url: `${baseUrlTech}/sendgrid.png` }
         ]
     },
@@ -284,25 +295,7 @@ export const techCategories: TechCategory[] = [
     //         { name: "Thunder Client", url: `${baseUrlTech}/thunder-client.png` },
     //     ]
     // },
-    {
-        id: 'ai-ml',
-        name: 'AI & Machine Learning',
-        description: 'AI services and machine learning frameworks',
-        icon: '🤖',
-        color: 'from-violet-500 to-purple-500',
-        technologies: [
-            // Package Managers
-            { name: "Data Analysis", url: `${baseUrlTech}/npm.svg` },
-            // { name: "PNPM", url: `${baseUrlTech}/pnpm.png` },
-            { name: "Jupiter", url: `${baseUrlTech}/yarn.png` },
-
-            // Monitoring & Analytics
-            { name: "Kaggle", url: `${baseUrlTech}/vercel-analytics.svg` },
-            { name: "Google Analytics", url: `${baseUrlTech}/google-analytics.svg` },
-            // { name: "Winston", url: `${baseUrlTech}/winston.svg` },
-            // { name: "PM2", url: `${baseUrlTech}/pm2.png` },
-        ]
-    }
+    
 ];
 
 export const technologies = techCategories.flatMap(category => category.technologies);

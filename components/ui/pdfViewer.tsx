@@ -53,7 +53,7 @@ const PDFViewer = dynamic(
   { ssr: false } // Disable server-side rendering
 );
 
-const PdfViewer = ({ url = "/assets/ajay_resume.pdf" }: { url?: string }) => {
+const PdfViewer = ({ url = "/assets/Ajay_Bind_Resume.pdf" }: { url?: string }) => {
   return <PDFViewer url={url} />;
 };
 

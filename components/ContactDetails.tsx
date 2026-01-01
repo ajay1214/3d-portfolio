@@ -38,7 +38,6 @@ const ContactDetails = () => {
                     <h2 className="text-2xl font-semibold text-white mb-6">Connect With Me</h2>
                     <p className="text-gray-300 mb-6">
                         I&apos;m available on various social media platforms. Feel free to connect with me! <br />
-                        I Usually get back to you in 24 hours.
                     </p>
                     <SocialLinks />
                     <Link href="/resume" passHref>
