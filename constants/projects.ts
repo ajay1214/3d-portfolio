@@ -112,7 +112,6 @@ export const projects: Project[] = [
         link: "https://ab-languages.vercel.app/",
         githubLink: "https://github.com/ajay1214/abLanguages",
         thumbnail: "/assets/projects/abLanguages.jpg",
-        // demoLink: "https://www.linkedin.com/posts/sinanptm_webdevelopment-opensource-nextjs-activity-7340757181467607043-1qZd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZ-UEEBRMD-TDWuU0pd3KhZH3Ti1MlQ-nU",
         isLinkedin: true,
         showGitStats: true,
         achievements: [
@@ -141,7 +140,6 @@ export const projects: Project[] = [
         githubLink: "https://github.com/ajay1214/abWhiteBoard",
         showGitStats: true,
         thumbnail: "/assets/projects/abWhiteBoard.png",
-        // demoLink: "https://youtu.be/fpOPtDixtD4",
         achievements: [
             "🛠️ Whiteboard from Scratch: Start with a blank canvas and create your own whiteboard.",
             "🧰 Toolbar with Text, Shapes, Sticky Notes & Pencil: Use a comprehensive set of tools to annotate and draw on the whiteboard.",
@@ -175,11 +173,10 @@ export const projects: Project[] = [
         title: "Image Transformation Platform",
         description: "An interactive web application designed to empower users with cutting-edge AI-driven image manipulation and enhancement tools. This platform provides a seamless, secure, and intuitive experience for users looking to transform their images effortlessly.",
         detailedDescription: "Developed a full-stack solution using Next.js, TypeScript, MongoDB, and Cloudinary, can deliver a smooth user experience for thousands of monthly active users. Implemented image processing algorithms and backend optimization, supporting five types of image transformations with efficient storage using cloud infrastructure. Created a credit system with Stripe with secure transactions and scalability, can handle thousands of concurrent users adhering to best practices in DevOps.",
-        technologies: [18, 19, 13, 29, 7, 44, 23, 62, 30, 61, 38, 39, 54, 57, 49, 56],
+        technologies: [18, 19, 13, 29, 7, 44, 23, 62, 30, 61, 38, 39, 57, 49, 56],
         link: "https://ab-images.vercel.app/",
         githubLink: "https://github.com/ajay1214/abImages",
         thumbnail: "/assets/projects/abImages.png",
-        // demoLink: "https://youtu.be/8w6HqmgeDcA",
         achievements: [
             "🔒 Authentication & Authorization -> Secure Access: User registration, login, and protected routes ensure that only authorized users can access platform features.",
             "🖼️ Community Image Showcase -> Explore & Inspire: Discover and browse through an array of user-transformed images with easy-to-use pagination.",
@@ -238,7 +235,6 @@ export const projects: Project[] = [
         link: "https://chatapp-h2h0.onrender.com/",
         githubLink: "https://github.com/ajay1214/ChatApp",
         thumbnail: "/assets/projects/chatApp.png",
-        // demoLink: "https://www.youtube.com/channel/UCLM9UEYxJMq2lXXjycxeOTQ",
         achievements: [
             "🔐 Secure Authentication – Implemented JWT-based login/signup with hashed passwords (bcrypt).",
             "💬 Real-time Messaging – Powered by Socket.io for instant message delivery without page reloads.",
@@ -254,12 +250,11 @@ export const projects: Project[] = [
         title: "Movie Found React App",
         description: "Developed a React-based movie discovery app using TMDb API to search for movies/TV shows, watch trailers, and view ratings, cast, and detailed information.",
         detailedDescription: "Built a Movie Finder application with React that integrates the TMDb (The Movie Database) API. The app allows users to search for movies and TV shows, fetch trailers, ratings, cast, and other details in real-time. Designed a clean, responsive interface with React and styled components/Tailwind, focusing on user-friendly search and quick access to relevant information. This project helped strengthen skills in API integration, state management, and UI development.",
-        technologies: [3, 36, 35, 37, 49],
+        technologies: [3, 36, 49],
         link: "https://movie-found.vercel.app/",
         githubLink: "https://github.com/ajay1214/movie-found",
         isLinkedin: true,
         thumbnail: "/assets/projects/movieFound.png",
-        // demoLink: "https://www.linkedin.com/posts/sinanptm_nuqs-statemanagement-urlpersistence-activity-7259535302615080961-F5Pf?utm_source=share&utm_medium=member_desktop",
         achievements: [
             "🔎 Search Functionality – Search movies and TV shows by title using TMDb API.",
             "🎬 Movie & Show Trailers – Embedded trailers fetched directly from the API.",
@@ -269,93 +264,4 @@ export const projects: Project[] = [
             "⚡ Fast API Integration – Smooth data fetching and rendering with React hooks."
         ]
     }
-    // {
-    //     title: "Sahithyolsav Manager",
-    //     description: "A program management system with participant tracking and mark list generation for event organization.",
-    //     detailedDescription: "Developed in three days using the MERN stack, this app includes mark lists, participant management, and caching for performance boosts. The UI is optimized for fast load times, and JWT authentication ensures data security.",
-    //     technologies: [3, 4, 19, 18, 13],
-    //     link: "https://sahityotsav-manager.onrender.com",
-    //     githubLink: "https://github.com/sinanptm/Program-manager",
-    //     isLinkedin: true,
-    //     demoLink: "https://www.linkedin.com/posts/sinanptm_mern-react-redux-activity-7220717132450254848-7bGb?utm_source=share&utm_medium=member_desktop",
-    //     thumbnail: "/assets/projects/program-manager.png",
-    //     achievements: [
-    //         "⚡ Improved performance by 70% through strategic memoization, optimizing rendering and data processing.",
-    //         "📉 Reduced API calls by 80% with smart caching techniques, enhancing application efficiency.",
-    //         "🔐 Implemented JWT authentication for secure access, protecting sensitive event and participant data.",
-    //         "📑 Developed mark lists and participant management features, streamlining event organization tasks.",
-    //         "🎨 Leveraged Mui Components for a smooth and intuitive user interface, improving user experience"
-    //     ]
-    // },
-    // {
-    //     title: "URL Shortener",
-    //     description: "A URL shortening platform with click tracking analytics and personalized user dashboard features.",
-    //     detailedDescription: "Developed with MERN stack and NestJS, this app offers URL shortening, click tracking, and personalized user dashboards. It provides experience in NestJS, focusing on modular architecture and dependency injection.",
-    //     technologies: [2, 18, 13, 3, 21],
-    //     link: "https://url-shortener-sooty-five.vercel.app",
-    //     isLinkedin: true,
-    //     githubLink: "https://github.com/sinanptm/url-shortener",
-    //     demoLink: "https://www.linkedin.com/posts/sinanptm_nestjs-typescript-nodejs-activity-7252588020401389567-tyYv?utm_source=share&utm_medium=member_desktop",
-    //     thumbnail: "/assets/projects/url-shortener.png",
-    //     achievements: [
-    //         "📊 Implemented click tracking and personalized user dashboards, providing actionable insights for link performance.",
-    //         "🛠️ Gained hands-on experience with NestJS, focusing on modular clean architecture and dependency injection for scalability"
-    //     ]
-    // },
-    // {
-    //     title: "Ace-Quiz: Quiz App",
-    //     description: "A modern quiz application with clean architecture implementation and automated deployment workflow.",
-    //     detailedDescription: "This quiz app focuses on scalability and maintainable code, using tools like Radix UI and Redux for efficient state management. GitHub workflows and CI enhance deployment and testing capabilities.",
-    //     technologies: [1, 0, 13, 4, 19, 18, 27, 33],
-    //     link: "https://quiz-app-six-dusky.vercel.app",
-    //     githubLink: "https://github.com/sinanptm/Quiz-app",
-    //     thumbnail: "/assets/projects/quiz.png",
-    //     isLinkedin: true,
-    //     demoLink: "https://www.linkedin.com/posts/sinanptm_nextjs-typescript-cleanarchitecture-activity-7232711700452425729-J_81?utm_source=share&utm_medium=member_desktop",
-    //     achievements: [
-    //         "🎨 Integrated Radix UI and Redux Toolkit for efficient state management and a modern, accessible interface.",
-    //         "🔄 Leveraged CI pipelines for automated deployment and testing, ensuring a robust and reliable release process"
-    //     ]
-    // },
-    // {
-    //     title: "Role-Based Candidate Management",
-    //     description: "A secure candidate management system with role-based access control and file handling features.",
-    //     detailedDescription: "A comprehensive candidate management platform featuring role-based access control, secure file uploads with AWS S3 presigned URLs, and real-time profile management. Built with TypeScript throughout the stack, it implements secure authentication, file handling, and extensive API endpoints for both admin and candidate portals.",
-    //     technologies: [0, 3, 18, 19, 13, 7, 20, 27, 33, 28, 29, 42, 56],
-    //     link: "https://candidate-management-psi.vercel.app",
-    //     githubLink: "https://github.com/sinanptm/candidate-management",
-    //     showGitStats: true,
-    //     thumbnail: "/assets/projects/c-manage.png",
-    //     achievements: [
-    //         "🔐 Implemented secure JWT authentication with refresh tokens, ensuring robust and seamless user sessions.",
-    //         "📁 Built a secure file management system with AWS S3 presigned URLs, enabling safe document uploads.",
-    //         "👥 Developed a comprehensive role-based access control system, managing permissions for admins and candidates.",
-    //         "🎨 Created a responsive UI with Tailwind CSS and shadcn/ui, optimized for all device sizes and accessibility.",
-    //         "🔒 Ensured end-to-end type safety with TypeScript, reducing runtime errors and improving code reliability.",
-    //         "🚀 Deployed frontend on Vercel and backend on AWS EC2, achieving high availability and performance.",
-    //         "📊 Built an admin dashboard with analytics and candidate management tools for efficient oversight.",
-    //         "🔄 Designed a RESTful API with Express.js, adhering to industry best practices for scalability.",
-    //         "📱 Optimized for responsive design, supporting seamless experiences across desktops, tablets, and mobiles.",
-    //         "🛡️ Implemented secure cookie-based session management, enhancing user data protection.",
-    //         "📄 Added a comprehensive document upload and verification system, streamlining candidate workflows.",
-    //         "⚡ Optimized performance with effective data caching strategies, reducing server load and latency.",
-    //         "🔍 Integrated advanced search and filtering capabilities, improving usability for candidate management.",
-    //         "📈 Enabled real-time progress tracking for candidates, enhancing transparency and engagement"
-    //     ]
-    // }
-    // {
-    //     title: "OLX & Netflix Clones",
-    //     description: "Platform clones featuring real-time data synchronization and secure authentication implementation.",
-    //     detailedDescription: "These clones, developed using React and Firebase, showcase responsive design and real-time data. TMDb API is used in the Netflix clone for movie data, and Firebase handles authentication and image uploads for the OLX clone.",
-    //     technologies: [3, 22],
-    //     githubLink: "https://github.com/sinanptm/OLX-clone",
-    //     link: "https://netflix-clone-gamma-virid.vercel.app",
-    //     thumbnail: "/assets/projects/netflix.png",
-    //     isLinkedin: true,
-    //     demoLink: "https://www.linkedin.com/posts/sinanptm_reactjs-firebase-tmdb-activity-7211610477729054720-nLr1?utm_source=share&utm_medium=member_desktop",
-    //     achievements: [
-    //        "📡 Integrated TMDb API for the Netflix clone, enabling dynamic and real-time movie data retrieval.",
-    //        "🔐 Leveraged Firebase for secure authentication and efficient image uploads in the OLX clone, ensuring user safety"
-    //     ]
-    // }
 ];
