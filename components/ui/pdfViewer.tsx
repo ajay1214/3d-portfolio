@@ -10,14 +10,10 @@ const PDFViewer = dynamic(
   async () => {
     const pdfjsVersion = "3.11.174";
 
-    const { Viewer } = await import("@react-pdf-viewer/core");
+    const { Viewer, Worker } = await import("@react-pdf-viewer/core");
     const { defaultLayoutPlugin } = await import(
       "@react-pdf-viewer/default-layout"
     );
-
-    // ⬇️ This is OK now because canvas is aliased out
-    const pdfjs = await import("pdfjs-dist/legacy/build/pdf");
-    pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsVersion}/pdf.worker.min.js`;
 
     const Component = ({ url }: { url: string }) => {
       const defaultLayoutPluginInstance = defaultLayoutPlugin();
@@ -30,23 +26,23 @@ const PDFViewer = dynamic(
 
       useEffect(() => {
         setScale(calculateScale());
-        window.addEventListener("resize", () =>
-          setScale(calculateScale())
-        );
-        return () =>
-          window.removeEventListener("resize", () =>
-            setScale(calculateScale())
-          );
+        const onResize = () => setScale(calculateScale());
+        window.addEventListener("resize", onResize);
+        return () => window.removeEventListener("resize", onResize);
       }, [calculateScale]);
 
       return (
         <div className="h-screen w-screen">
-          <Viewer
-            fileUrl={url}
-            defaultScale={scale}
-            theme="dark"
-            plugins={[defaultLayoutPluginInstance]}
-          />
+          <Worker
+            workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsVersion}/pdf.worker.min.js`}
+          >
+            <Viewer
+              fileUrl={url}
+              defaultScale={scale}
+              theme="dark"
+              plugins={[defaultLayoutPluginInstance]}
+            />
+          </Worker>
         </div>
       );
     };
