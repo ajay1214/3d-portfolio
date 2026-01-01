@@ -254,7 +254,7 @@ export const projects: Project[] = [
         title: "Movie Found React App",
         description: "Developed a React-based movie discovery app using TMDb API to search for movies/TV shows, watch trailers, and view ratings, cast, and detailed information.",
         detailedDescription: "Built a Movie Finder application with React that integrates the TMDb (The Movie Database) API. The app allows users to search for movies and TV shows, fetch trailers, ratings, cast, and other details in real-time. Designed a clean, responsive interface with React and styled components/Tailwind, focusing on user-friendly search and quick access to relevant information. This project helped strengthen skills in API integration, state management, and UI development.",
-        technologies: [3,, 36, 35, 37, 49],
+        technologies: [3, 36, 35, 37, 49],
         link: "https://movie-found.vercel.app/",
         githubLink: "https://github.com/ajay1214/movie-found",
         isLinkedin: true,

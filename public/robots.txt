@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://muhammedsinan.space
+
+# Sitemaps
+Sitemap: https://muhammedsinan.space/sitemap.xml
