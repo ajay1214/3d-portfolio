@@ -7,17 +7,19 @@ const nextConfig: NextConfig = {
       "@react-three/fiber",
       "@react-three/drei",
       "@react-pdf-viewer/core",
+      "@react-pdf-viewer/default-layout",
       "recharts",
       "three-globe",
     ],
   },
+
+  turbopack: {}, // ✅ REQUIRED for Next.js 16
 
   images: {
     remotePatterns: [
       {
         protocol: "https",
         hostname: "img.shields.io",
-        port: "",
         pathname: "/**",
       },
     ],
@@ -47,12 +49,11 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // 🔥 THIS IS THE CRITICAL FIX
   webpack: (config) => {
     config.resolve = config.resolve || {};
     config.resolve.alias = {
       ...(config.resolve.alias || {}),
-      canvas: false, // ⛔ prevents pdfjs from resolving native canvas
+      canvas: false, // ✅ prevents native canvas resolution
     };
     return config;
   },
