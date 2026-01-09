@@ -9,7 +9,7 @@ export const personSchema = {
   jobTitle: "Full Stack Web Developer",
   headline: "MERN Stack & Modern Web Technologies Specialist",
   description: "Innovative self-taught developer creating scalable web applications with cutting-edge technologies.",
-  image: `${hostedUrl}/assets/ajay-profile.jpg`,
+  image: `${hostedUrl}/assets/ajayPic.jpg`,
   url: hostedUrl,
   birthDate: "2002-12-18",
   nationality: "Indian",
