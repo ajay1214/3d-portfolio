@@ -1,7 +1,7 @@
 import { personSchema, siteNavigationSchema, websiteSchema } from "@/app/schema";
 import HighlightBackground from "@/components/HighlightBackground";
 import ThemeProvider from "@/components/layout/ThemeProvider";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { Toaster } from "@/components/ui/toaster";
 import { firaCode, sourceCodePro } from "./fonts";
 import Footer from "@/components/layout/Footer";
