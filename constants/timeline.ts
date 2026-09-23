@@ -2,6 +2,18 @@ import type { TimelineEntry } from "@/types";
 
 export const timelineData: TimelineEntry[] = [
     {
+        id: "Havells",
+        title: "AI Catalyst Intern",
+        company: "Havells",
+        type: "fulltime",
+        duration: {
+            start: "Sep 2026",
+            end: "Present",
+        },
+        description:
+            "Working as an AI Catalyst Intern at Havells, contributing to projects involving artificial intelligence and machine learning applications in the electrical industry.",
+    },
+    {
         id: "NIT Hamirpur",
         title: "Mtech in Computer Science and Engineering",
         company: "NIT Hamirpur",

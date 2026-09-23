@@ -40,7 +40,7 @@ const Experience = () => {
                                     }
                                 }}
                             >
-                                Academic Journey
+                                Education & Experience Journey
                             </motion.h1>
                         </div>
 

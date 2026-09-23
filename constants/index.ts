@@ -3,7 +3,7 @@ import { baseUrlTech } from "./techData";
 
 export const profile = {
   summary: ` 👋 Hi, I’m Ajay 😊
-B.Tech graduate from NIT Warangal, currently pursuing M.Tech in CSE at NIT Hamirpur. 
+AI Catalyst Intern at Havells, B.Tech graduate from NIT Warangal, currently pursuing M.Tech in CSE at NIT Hamirpur. 
 
 Passionate about problem-solving and software development, with strong skills in C++, Python, DSA, and hands-on experience in full-stack development (MERN), plus exposure to AI/ML.`,
   gitHub: "https://github.com/ajay1214/3d-portfolio",
@@ -78,7 +78,7 @@ export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
   // { href: "/open-source", label: "Open Source" },
-  { href: "/experience", label: "Education" },
+  { href: "/experience", label: "Education & Experience" },
   { href: "/stack", label: "Skills" },
   { href: "/contact", label: "Contact Me" },
 ];
@@ -148,7 +148,8 @@ export const thingsIDo: ThingsIDo[] = [
       { text: ' Codeforces: Specialist (Max Rating: 1501)', icon: '🔄' },
       { text: 'LeetCode: Knight Level (Max 1859 Rating)', icon: '✅' },
       { text: 'CodeChef: 3★ Coder (Max Rating: 1667)', icon: '📊' },
-      { text: 'GATE CSE Qualified in 2025', icon: '✅' },
+      { text: 'GATE CSE Qualified in 2025 & 2026', icon: '🎖' },
+      { text: 'JEE Mains Percentile 97.77', icon: '⛳️' },
     ]
   }
 ];
